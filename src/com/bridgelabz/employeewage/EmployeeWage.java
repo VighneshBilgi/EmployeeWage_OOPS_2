@@ -30,14 +30,14 @@ class CalculateEmployeeWage{
 
            totalWage(companyName,wagePerHour,fullDayHour,partDayHour,totalWorkDay,totalWorkHour);
 
-           System.out.println("Would you like to try again (Y or N)?");
+           System.out.println("Would you like to enter again ?(Enter Y to continue or any key to exit the program)");
            char c = sc.next().charAt(0);
 
            if(c == 'Y'|| c == 'y'){
                continue;
            }
            else {
-               System.out.println("Goodbye!");
+               System.out.println("Thank you for using the Employee Wage Computation Program");
                break;
            }
 
